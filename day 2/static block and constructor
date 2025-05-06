@@ -1,0 +1,62 @@
+//constructors are used to initiate the objects 
+//for every cls there will be a default consrtructor
+//whenever we create an object constructor will be called automatically 
+//constructor having class name and method properties 
+//for every cls there will be a default constructor if we create cls constrctor callef first
+//same class name but having() is alled constructor 
+
+
+//example-1  (for constructor) 
+
+public class q2{
+  public static void main(String[] args){
+    Demo d1=new Demo();
+    Demo d2=new Demo();
+    //for static methods we no need to cl with object we can cl directly with cls name
+   
+    
+  }
+}
+
+class Demo{
+  static{
+    System.out.println("static");   //static block syntax it is called directly 
+  }
+  Demo(){
+    System.out.println("constructor");   //this is called constructor ,same cls name but ()
+  }
+  
+//we created constructor object two times constructor is called 
+
+
+//example-2 (static block)
+//static block will be created with just a static key word
+//it will be called automatically ,no need to call with object or cls name 
+//static method 
+//for sttic method no need to call with object ,we can directly call with class name 
+//and here static will act as instance or object 
+
+public class q2{
+  public static void main(String[] args){
+    Demo d1=new Demo();
+    Demo d2=new Demo();
+    //for static methods we no need to cl with object we can cl directly with cls name
+    Demo.name();
+    
+  }
+}
+
+class Demo{
+  static{
+    System.out.println("static");//static block syntax it is called directly 
+  }
+  Demo(){
+    System.out.println("constructor");//this is called constructor ,same cls name but ()
+  }
+
+//static act as instance for a method 
+static void name(){
+  System.out.println("hello");
+}
+}
+
