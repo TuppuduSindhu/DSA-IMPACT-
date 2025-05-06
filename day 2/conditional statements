@@ -1,0 +1,47 @@
+->conditional statements are used to check the condition  and print the block of code in constant time 
+->if,else,else if,swith 
+  //if 
+ int age = 20;
+if (age >= 18) {
+    System.out.println("You are an adult.");
+}
+
+
+
+//if else 
+int age = 16;
+if (age >= 18) {
+    System.out.println("You can vote.");
+} else {
+    System.out.println("You are too young to vote.");
+}
+
+//if else if 
+int score = 85;
+if (score >= 90) {
+    System.out.println("Grade A");
+} else if (score >= 75) {
+    System.out.println("Grade B");
+} else {
+    System.out.println("Grade C");
+}
+
+//switch 
+int day = 3;
+switch (day) {
+    case 1:
+        System.out.println("Monday");
+        break;
+    case 2:
+        System.out.println("Tuesday");
+        break;
+    case 3:
+        System.out.println("Wednesday");
+        break;
+    default:
+        System.out.println("Invalid day");
+}
+
+
+
+
