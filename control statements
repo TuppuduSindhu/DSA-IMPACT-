@@ -1,0 +1,23 @@
+-> entry and exit control
+-> entry control loops are for and while 
+-> exit control loops are do while 
+->when u know the range prefer to use for loop and when you dont know the range use while loop 
+
+//for loop
+for(int i;i<=n;i++){
+  System.out.println(i);
+    }
+
+//while
+int i = 1;
+while (i <= n) {
+    System.out.println(i);
+    i++;
+}
+
+//do while 
+int i = 1;
+do {
+    System.out.println(i);
+    i++;
+} while (i <= n);
