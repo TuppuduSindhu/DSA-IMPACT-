@@ -1,0 +1,23 @@
+
+
+public class q2{
+  public static void main(String[] args){
+    Demo d1=new Demo();
+    Demo d2=new Demo();
+    Demo.name();
+    
+  }
+}
+
+class Demo{
+  static{
+    System.out.println("static");
+  }
+  Demo(){
+    System.out.println("constructor");
+  }
+
+static void name(){
+  System.out.println("hello");
+}
+}
