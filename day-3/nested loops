@@ -1,1 +1,154 @@
 
+-> example 1 
+import java.util.;
+//it is for patter with 5 rows and 5 columns 
+public class Main { 
+    public static void main(String[] args) {
+      int n=5;
+      for(int i=1;i<=n;i++){
+        for(int j=1;j<=n;j++){
+          System.out.print(" * ");
+        }
+        System.out.println();
+      }
+      
+  }
+} *///we use or logic not and logic because if keep and it checks for both right but for or if i==5 it print and also what we mentioned it print all 
+
+
+-> example 2 (only for borders)
+
+import java.util.;
+
+public class Main {
+    public static void main(String[] args) {
+      int n=5;
+      for(int i=1;i<=n;i++){
+         
+        for(int j=1;j<=n;j++){
+          if(i==1 || i==5 ||j==1 || j==5){
+            System.out.print("* "); //give one place after star
+          }
+          else{
+            System.out.print("  ");//give two spaces 
+          }
+          
+        }
+        System.out.println();
+       
+      }
+    }
+}
+
+
+-> example 3 
+
+
+import java.util.;
+
+public class Main {
+    public static void main(String[] args) {
+      int n=5;
+      for(int i=1;i<=n;i++){
+         
+        for(int j=1;j<=n;j++){
+          if(i==1 || i==5 ||j==1 || j==5 || i==j){
+            System.out.print("*");
+          }
+          else{
+            System.out.print(" ");
+          }
+          
+        }
+        System.out.println();
+       
+      }
+    }
+}
+
+
+->example 4 
+
+import java.util.*;
+
+public class Main {
+    public static void main(String[] args) {
+      int n=5;
+      for(int i=1;i<=n;i++){
+         
+        for(int j=1;j<=n;j++){
+          // if(i==1 || i==5 ||j==1 || j==5 || i==j || i==2 && j==4 || i==4 && j==2){ //here we printing diagnonal and adding remaining stars with condition
+          //if(i==2&&j==3||i==3&&(j==2 || j==4)||i==4&&j==3)  //here we are givig conditions and printing stars 
+            if(i==1 || i==5 ||j==1 || j==5 || i==j || i+j==6){
+            System.out.print("* ");
+          }
+          else{
+            System.out.print("  ");
+          }
+          
+        }
+        System.out.println();
+       
+      }
+    }
+}
+
+
+->example 5 (for m pattern )
+import java.util.*;
+public class Main{
+    public static void main(String[] args){
+        int n=5;
+        for(int i=1;i<=n;i++){
+            for(int j=1;j<=n;j++){
+                if(j==1||j==5||i==2&&(j==2||j==4)||i==3&&j==3){
+                    
+                    System.out.print("* ");
+                }
+                
+                else{
+                    System.out.print("  ");
+                }
+            }
+            System.out.println();
+        }
+    }
+}
+
+
+-> example (6 it for printing  triangle shape only borders right angle triangle )
+import java.util.*;
+public class Main{
+    public static void main(String[] args){
+        int n=5;
+        for(int i=1;i<=n;i++){
+            for(int j=1;j<=n;j++){
+                if(i==5||j==1||j==i){
+                    
+                    System.out.print("* ");
+                }
+                
+                else{
+                    System.out.print("  ");
+                }
+            }
+            System.out.println();
+        }
+    }
+}
+
+
+->example 7 (for printing all stars in right angle triangle)
+public class Main {
+    public static void main(String[] args) {
+        int n = 5;
+
+        for (int i = 1; i <= n; i++) {        // Outer loop → controls rows (1 to 5)
+            for (int j = 1; j <= i; j++) {    // Inner loop → controls columns (1 to i)
+                System.out.print("* ");
+            }
+            System.out.println();             // Moves to the next line after each row
+        }
+    }
+}
+
