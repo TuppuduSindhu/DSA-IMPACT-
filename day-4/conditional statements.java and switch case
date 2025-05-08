@@ -1,0 +1,55 @@
+-> cases have to be the same type as expressions,must be a constant or literal 
+-> duplicate case values are not allowed 
+-> bread is use to terminate the sequence 
+-> if break is not used it will continue to next case 
+-> default will execute when none of the above does 
+-> if default is not at the end put break after it 
+
+-> example of switch case 
+
+  import java.util.*;
+public class Main{
+    public static void main(String[] args){
+        Scanner sc=new Scanner(System.in);
+        int day=sc.nextInt();
+//         if(day==1){
+//             System.out.println("Monday");
+//         }
+//         else if(day==2){
+//             System.out.println("Tuesday");
+            
+//         }
+//         else if(day==3){
+//             System.out.println("Wednesday");
+//         }
+//         else if(day==7){
+//             System.out.println("Sunday");
+//         }
+//         else{
+//             System.out.println("enter valid day");
+//         }
+//     }
+// }
+       switch(day){
+         case 1:
+           System.out.println("monday");
+           break;
+          case 2:
+           System.out.println("tuesday");
+           break;
+          case 3:
+           System.out.println("wednesday");
+           break;
+          case 7:
+           System.out.println("sunday");
+           break;
+          default:
+            System.out.println("not valid");
+          
+       }
+    }
+}
+
+
+    
+        
