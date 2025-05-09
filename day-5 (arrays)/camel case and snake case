@@ -7,7 +7,7 @@ ex: void additionOfTwoNumbers(){
 }
 
 
-type of printin formats :
+type of printing formats :
 
 ->format 1
 import java.util.*;
