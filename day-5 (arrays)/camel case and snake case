@@ -1,0 +1,98 @@
+camel=second word first letter should be capital 
+-> arrayName.length 
+snake case means with underscore 
+-> string_name.length()
+  -> in java it is preffered to use camel case to write production level code 
+ex: void additionOfTwoNumbers(){
+}
+
+
+type of printin formats :
+
+->format 1
+import java.util.*;
+
+public class Main {
+    public static void main(String[] args) {
+     int[] arr={1,2,3,4,5};
+     for(int i=0;i<arr.length;i++){
+       System.out.println(arr[i] + " ");
+     }
+  }
+}
+
+
+you can print array values using simple for loops 
+
+
+->format 2 
+  you can print array values using foreach() loops 
+
+for(int i:arr){
+System.out.print(i+ "  ");
+}
+-> in for each loop we dont need inde values 
+
+
+
+
+-> format 3
+import java.util.*;
+
+public class Main {
+    public static void main(String[] args) {
+     int[] arr={1,2,3,4,5};
+    
+       System.out.println(Arrays.toString(arr));
+     
+  }
+}
+
+
+->toString is an inbuilt method to print an array 
+->toString can accept only one argument that is array only  ,if we want to store sec argument it will show error
+
+
+//declaring size of an array and initializing the values later 
+->array having fixed size if we declare an array size it cant be changed 
+
+int[] arr=new int[5];
+int[] arr is array of reference object created  reference and new is object created in heap memory 
+for that particular data type and size '
+->if the array type   is integer the default value is 0.
+->if it is a string the default values are null and null is a literal 
+
+
+import java.util.*;
+
+public class Main {
+    public static void main(String[] args) {
+     Scanner sc=new Scanner(System.in);
+     int[] arr=new int[5];
+     System.out.println("enter the values");
+    // arr[0]=1; 
+    // arr[1]=2;
+    // arr[2]=3;
+    // arr[3]=4;
+    // arr[4]=5;
+    for(int i=0;i<arr.length;i++){
+      arr[i]=sc.nextInt();
+    }
+    for(int i=0;i<arr.length;i++){
+      System.out.println(arr[i]);
+    }
+    // for(int i:arr){
+    //   System.out.print(i);
+    // }
+    System.out.print(Arrays.toString(arr));
+    
+     
+  }
+}
+
+->whenever you are trying to assign or tryig to get nth value of array , u will gwt exception called array out of bound 
+
+
+
+
+
