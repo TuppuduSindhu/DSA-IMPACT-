@@ -1,1 +1,6 @@
-in 2d array first bracket represent rows and second row represent columns 
+2Dimensional array consists of rows and columns 
+int[][] arr=new int[][] -> in 2d array first bracket represent rows and second row represent columns 
+-> while declaring the array we have to declare number of rows and columns(optional) .
+-> each row will act as a individual array 
+-> length of a array is row number 
+-> size of a  array 
