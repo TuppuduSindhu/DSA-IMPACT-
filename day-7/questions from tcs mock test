@@ -1,0 +1,6 @@
+//stacks 
+//next greater element  ,time complexity for all stack operations are O(1)
+points to remember 1.compare elements in array if next element is greater than present element return that grester element 
+                  2. if the next greater is not greater pop the stack and return -1 
+                  3.return peek element of each element 
+                  
