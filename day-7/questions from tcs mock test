@@ -2,5 +2,41 @@
 //next greater element  ,time complexity for all stack operations are O(1)
 points to remember 1.compare elements in array if next element is greater than present element return that grester element 
                   2. if the next greater is not greater pop the stack and return -1 
-                  3.return peek element of each element 
+                  3.return peek element of each element
+
+def next_greater_element(nums):
+    result = []
+    for i in range(len(nums)):
+        next_greater = -1
+        for j in range(i + 1, len(nums)):
+            if next_greater == -1 and nums[j] > nums[i]:
+                next_greater = nums[j]
+        result.append(next_greater)
+    return result
+
+nums = [4, 5, 2, 10, 8]
+print(next_greater_element(nums))
+
+
                   
+//custom sorting sor unit place or whatever u want 
+->we have to use start and end like start have staring time ,end time have ending time so we need to form pars
+->we need to compare the end time of one pair with start time of next pair ,if start time of next one is greater than first pair end we consider it if not we cant 
+
+
+///array list 
+
+array having fixed size once we declare we cant change the size 
+to increase array size dynamically we use arraylist  it belongs to collection framework 
+->what is a framework : collection of predefines methods ,they guide us and different from package 
+
+syntax :
+List<Wraper Class> ArrayListName=new ArrayList<>();
+
+List<Integer> leaders=new ArrayList<>();
+
+->list is a interface and interface contain incomplete methods 
+-> wrapper cls is not a primitive data type ,it is a cls 
+->and in collections we have to use wrapper classes only 
+-> <> this angular brackets generics 
+-> Array list is a class it contsins complete methods 
