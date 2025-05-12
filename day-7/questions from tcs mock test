@@ -39,4 +39,6 @@ List<Integer> leaders=new ArrayList<>();
 -> wrapper cls is not a primitive data type ,it is a cls 
 ->and in collections we have to use wrapper classes only 
 -> <> this angular brackets generics 
--> Array list is a class it contsins complete methods 
+-> Array list is a class it contsins complete methods  
+->ArrayList is a dynamic array ,if we try to add new elements the size will be doubled and it will copy previous elements . vice versa size will become half when elements are deleted 
+->ArrayList is a cls we have to import the ArrayList class ,now we can access all the predefined methods in ArrayList 
