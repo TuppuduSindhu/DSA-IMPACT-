@@ -1,1 +1,54 @@
+-> function call itself  again and agina till its meet base condition 
+-> there are two types in recursions , function calling same function itself and itself ,function calling another function till it meets base  condition 
+-> recursions  are used to break the code 
+-> for every recursive call elements will be pushed into a stack after reaching base condition elements will be poped 
+-> for factorial question 5,4,3,2,1 all these values will be pushed to stack , 
 
+factorial code 
+import java.util.*;
+public class Main{
+  public static void main(String[] args){
+    Scanner sc=new Scanner(System.in);
+    int n=sc.nextInt();
+    System.out.println(fact(n));
+  }
+  
+  public static int fact(int n){
+    if(n==0 || n==1){
+    return 1;
+  }
+  else{
+    return n*fact(n-1);
+  }
+  
+}
+}
+
+
+#max function 
+it return th max value in an array 
+Math.max 
+Math.min 
+arr=[1,2,3,4,5] 
+max=Math.max(arr[i],max);
+max=Math.min(arr[i],min);
+
+ Scanner sc=new Scanner(System.in);
+    int n=sc.nextInt();
+    System.out.println(fibonacci(n));
+  }
+  
+  
+  public static int fibonacci(int n){
+    if(n==0){
+      return 0;
+    }
+    else if(n==1){
+      return 1;
+    }
+    else{
+      return fibonacci(n-1)+fibonacci(n-2);
+    }
+  }
+}
+  
