@@ -1,0 +1,26 @@
+import java.util.*;
+
+public class Main {
+    public static void main(String[] args) {
+      String a="asdfghjkl";
+      String res=a.substring(0,4);
+      String res1=a.substring(5,9);
+      System.out.println(res+res1);
+      
+      System.out.println(a.charAt(0));
+      // System.out.println(res1);
+  }
+}
+
+//substring and charAt() methods  usedm in above code 
+
+//recursions using string 
+
+
+->assume that we are starting with two strings input and output string ,initially the output is empty ,we have  few steps they are :
+1.take the first character from the string and store in a character variable .
+2.check the variable with out target character ,if it matches just return output string else append the character to output string  
+3.next slice the string by one character 
+whenever string is empty we have to stop the recursion 
+4.charAt(0) method is used to access the ahracter at particular index  //here 0 is the index value
+5.if we want to slice we use substring(0,n) method   //here 0=starting,n=ending
