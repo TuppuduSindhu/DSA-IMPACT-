@@ -1,0 +1,36 @@
+-> strings are classes and arrays are object 
+-> sequence  of chracters are called strings 
+-> strings are immutable .,so they are fixed , we cant modify the strings 
+->all the array objects will be created in heap memory but strings are created inside heap memory in string pool .
+-> example 
+
+
+import java.util.*;
+
+public class Main {
+    public static void main(String[] args) {
+      String a="hi";
+      String b="hi"; //strings are created and pointing to same location ,it return true ,same memory location 
+      System.out.println(a==b);
+      String c=new String("hello");//objects ,strings are creating via objects,two objects 2 different locations ,it return false,different memory locations 
+      
+      String d= new String("hello");
+      System.out.println(c==d);
+      
+  }
+}
+
+
+
+
+- length() - Returns the length of the string.
+- charAt(int index) - Returns the character at the specified index.
+- substring(int beginIndex, int endIndex) - Extracts a portion of the string.
+- contains(CharSequence s) - Checks if the string contains the specified sequence.
+- startsWith(String prefix) / endsWith(String suffix) - Checks if the string starts/ends with a given substring.
+- toUpperCase() / toLowerCase() - Converts the string to uppercase or lowercase.
+- trim() - Removes leading and trailing spaces.
+- replace(String old, String new) - Replaces occurrences of a substring.
+- split(String regex) - Splits the string into an array based on a regex.
+- equals(String anotherString) / equalsIgnoreCase(String anotherString) - Compares two strings.
+
