@@ -1,0 +1,6 @@
+-> initialize three pointers l,m at 0th index and h at n-1 index 
+-> the elements between m and h  are unsorted so we have to traverse through out the array 
+->if array[m]==0 then move to right ,means swap between l ad m , and increase l and m . 
+  -> if array[m]==1 just stay there only ,just increase m .
+  ->else swap arr[m] and arr[h] and decrease h 
+  
