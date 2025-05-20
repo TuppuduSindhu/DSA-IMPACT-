@@ -1,0 +1,22 @@
+arrays=[1,2,3] 
+
+subarray=> sub arrays are the part of arrays but continuous ,order.
+->reverse order not acceptable 
+-> subarray of given array is [1,2],[2,3] 
+-> not possible subarrays are [2,3],[3,2]
+
+subset=> subsets also same part of the arrays ,may or maynot be continuos and not in reverse order 
+=>[1,2] ,[1,3],[2,3] are possible subsets 
+=>[2,1] are not the subset because it is in reverse order.
+
+
+string=a,b,c 
+=>subsequence = subsequence is the part of the string may or may not be continuos 
+=>ab , bc, ac are sunsequence but not ca 
+
+
+=> substring =substrings are the part of the strings which must follow sequence 
+=> ab,bc, are the substrings 
+=>ac,ca are not the substrings bcz they are not continuos.
+
+
