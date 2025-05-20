@@ -17,6 +17,6 @@ string=a,b,c
 
 => substring =substrings are the part of the strings which must follow sequence 
 => ab,bc, are the substrings 
-=>ac,ca are not the substrings bcz they are not continuos.
+=>ac,ca are not the substrings bcz they are not continuos(they are in reverse order).
 
 
