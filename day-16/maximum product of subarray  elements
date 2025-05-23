@@ -1,0 +1,19 @@
+maximum product of subarray 
+ int[] arr={2,3,-6,4};
+ 1.if the question is asked as product ,start your product variable with 1 
+ 2.in the subarray if we have even positive numbers  the product will be positive numbers 
+ 3.in the subarray if we have odd negative numbers the product will be negative numbers. 
+ 4.in the subarray if we have atleast a zero ,start you product variable with 1 
+ 5.if we have negative value the product of prefix elements will be positive , and product of suffix elements will be positive 
+ 6.initialize the maximum variable extreme negative 
+
+
+  koko eating bananas leetcode 875 :
+  steps :
+  1.whatever max value we have ,we have to check those many values (loop from 0 to max)-check the elements till max 
+  2.initialize left pointer at 0,right pointer at max 
+  3.get the middle element  
+  4.divide the array elements and get the ceil values 
+  5.add all the ceil values and compare with target hours ,if value is less than or equal to target hours -eliminate right half 
+  6.change the right pointer to mid-1 and left is at starting only 
+  7.if the sum is greater than to the target ,eleminate left half - change left pointer to mid+1 and return left 
