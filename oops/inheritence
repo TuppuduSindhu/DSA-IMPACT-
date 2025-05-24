@@ -1,0 +1,26 @@
+single inheritence 
+class Main{
+  public static void main(String[] args){
+    C obj=new C();
+    obj.method1();
+    
+    
+  }
+}
+  
+class A{
+    void method1(){
+      System.out.println("hello");
+    }
+  }
+class B{
+    void method1(){
+      System.out.println("hello");
+    }
+  }
+class C extends A,B(){
+  void method3(){
+    System.out.println("he");
+  }
+} 
+
