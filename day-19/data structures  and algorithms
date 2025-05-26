@@ -1,0 +1,33 @@
+datastructures : 
+1.Liked list 
+2.Stacks and Queues 
+3.trees and graphs 
+4.Heaps 
+
+Algorithms :
+1.sorting 
+2.searching 
+3.dynamic programming  
+
+  Time complexity constraints : 1)ignore smaller  values 
+                                2)focus on worst case 
+                                3)ignore constants 
+    to solve a problem we have 3 steps 
+    in step 1 : write some lines and it contains 2 for loops to get step 2
+    and in step 2 we run one more for loop to get step 3 
+    and in step 3 we write the code in constant time 
+    if we analize the code the timecomplexity will be n**2 for step 1 and n for step2 and 1(constant) for step3
+    to get the time complexity for the code we follow time complexity contraints like ignore small values,constants and final time complexity will be n**2 .
+
+    Best canse ,Average Case and Worst Case  
+
+    Best Case : getiing output in less time complexity 
+    Worst Case : getting output in more Time complexity [O(f)]
+    Average Case: average of best and worst 
+    
+  Space complexity : if we use any extra space for solving the problem that extra space is consider as space complexity
+    
+    
+    
+
+
