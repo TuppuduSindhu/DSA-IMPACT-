@@ -1,10 +1,10 @@
-datastructures : 
+=== datastructures ==== : 
 1.Liked list 
 2.Stacks and Queues 
 3.trees and graphs 
 4.Heaps 
 
-Algorithms :
+=== Algorithms ===:
 1.sorting 
 2.searching 
 3.dynamic programming  
@@ -25,9 +25,11 @@ Algorithms :
     Worst Case : getting output in more Time complexity [O(f)]
     Average Case: average of best and worst 
     
-  Space complexity : if we use any extra space for solving the problem that extra space is consider as space complexity
-    
-    
-    
+  Space complexity : if we use any extra space for solving the problem that extra space is consider as space complexity 
 
+ === linear  | non linear ===== : 
+linked list  |  trees 
+stacks       |  graphs 
+quesues      |
+             |
 
