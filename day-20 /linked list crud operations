@@ -1,1 +1,11 @@
+crud operation in linked list:
+Delete: 1.delete head Node 
+        2.delete  tail node 
+        3.delete Nth node 
+        4.delete by value 
+
+Insert : 1.insert head node 
+         2.insert tail node 
+         3.delete Nth node 
+         4.delete by value 
 
