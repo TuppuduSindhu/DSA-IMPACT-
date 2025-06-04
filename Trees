@@ -1,0 +1,61 @@
+//non linear data structure 
+//graphs,trees,heaps 
+//time complexity of trees are log(n) so we use trees 
+Trees : trees are Acyclic graphs(which dont form cycles) 
+Tree creation : we have to create a node which contains data as well as left and right pointer .
+Rootnode : tarting node is called root node eventually every node is a root node.whatever nodes where added to the root node will call it as a  child nodes.
+Leaf node: Node without any child nodes 
+
+Types of trees : 1.Binary tree: at max two child nodes can be added to the root node 
+                 examples of binary tree:
+                                         ->Binary search tree 
+                                        -> Avl tree and Red Black tree 
+                                        ->segment tree 
+                 2.N-array tree(n nodes can be attached to a single node). 
+                 examples of n array tree : Tries 
+->to travel from rootnode to leaf nodes we have to way of traversals 1. Breadth First Search 
+                                                                     2. Depth First Search 
+
+===========================================================================Depth First Search =========================================================================================================
+
+Three Types of Traversal :PreOrder ,InOrder PostOrder
+PreOrder: root-left-right
+PostOrder:left-right-root 
+InOrder:left-root-right 
+
+==========================binary tree=====================
+1.perfect binary tree: every node should contains two child nodes ,every level should be filled and every node contains 2 child nodes 
+2. Full binary tree: every level should be filled ,every node contains either 2 or 0 nodes 
+3.complete binary tree: -> each and every level should be filled then only we can move to next level
+                        -> every node should be created from left to right 
+
+=======binary search tree==================
+the left node value should be smaller than right node value
+left<root<right
+advantage: if we print the inorder traversel in bst we will get elements in sorted 
+drawback : the tree might skewed(all nodes having one child node) means we have to do linear search 
+
+balanced tree: height of left tree-height of right tree if it is equal to -1,1,0 the it is balanced tree 
+AVL(adelson velson landies): avl tree is a self balanced  tree , there are four types :  1.left-left 2.right-right 3.left-right 4.left-right 
+
+
+
+
+===============segment tree====================== 
+in an array to the sum of upto  particular range we use simple for loop we will get output with time complexity o(n) if  we want the time complexity in log(n) we use trees thet trees are segmet trees 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
