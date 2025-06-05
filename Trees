@@ -43,7 +43,7 @@ AVL(adelson velson landies): avl tree is a self balanced  tree , there are four 
 
 ===============segment tree====================== 
 in an array to the sum of upto  particular range we use simple for loop we will get output with time complexity o(n) if  we want the time complexity in log(n) we use trees thet trees are segmet trees 
-
+->in problems like range loops we use segment tree to reduce the time complexity from n**2 to log(n) 
 
 
 
