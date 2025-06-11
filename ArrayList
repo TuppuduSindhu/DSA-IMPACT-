@@ -18,10 +18,36 @@ for strings: ArrayList<String> names = new ArrayList<>();
 
 public class Main {
     public static void main(String[] args) {
-      ArrayList<String> names = new ArrayList<>(); 
-      names.add("bi");
-      names.add("ki");
-      names.add("jkkk");
-      System.out.println(names);
-  }
+        ArrayList<String> names = new ArrayList<String>();
+        names.add("hi");
+        names.add("hello");
+        System.out.println(names);
+
+        names.remove("hello");
+        System.out.println(names);
+
+        // First check using if directly
+        if (names.contains("hi")) {
+            System.out.println("yes");
+        } else {
+            System.out.println("no");
+        }
+
+        
+        boolean hashi = names.contains("hi");
+        boolean hashello = names.contains("hello");
+
+        if (hashi) {
+            System.out.println("yes");
+        } else {
+            System.out.println("no");
+        }
+
+        if (hashello) {
+            System.out.println("hello is in the list.");
+        } else {
+            System.out.println("hello is not in the list.");
+        }
+    }
 }
+
