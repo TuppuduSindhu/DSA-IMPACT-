@@ -1,0 +1,27 @@
+An ArrayList is a resizable array, part of Java’s java.util package.
+It allows you to store elements (like arrays), but with dynamic size — meaning it grows and shrinks automatically as you add or remove elements.
+
+===========Why Use ArrayList=====
+
+Dynamic Size – No need to know the size in advance.
+
+Built-in Methods – Like add(), remove(), contains(), size(), etc.
+
+Type-Safe – Can use generics (ArrayList<String>, ArrayList<Integer>, etc.)
+
+Flexible Operations – Easy insert/delete without manually shifting elements.
+
+for list : ArrayList<Integer> numbers = new ArrayList<>();
+for strings: ArrayList<String> names = new ArrayList<>();
+  eg:
+ import java.util.*;
+
+public class Main {
+    public static void main(String[] args) {
+      ArrayList<String> names = new ArrayList<>(); 
+      names.add("bi");
+      names.add("ki");
+      names.add("jkkk");
+      System.out.println(names);
+  }
+}
